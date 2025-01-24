@@ -1,0 +1,11 @@
+server:
+  port: 8000
+task_scheduler:
+  backup_production_db:
+    interval: 5
+  clean_up:
+    interval: 7
+  cache_eviction:
+    interval: 9
+  generate_report:
+    interval: 11
